@@ -1,0 +1,34 @@
+<div id="search-project-wrapper" style="max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); font-family: 'Helvetica Neue', sans-serif;">
+
+    <div id="search" style="margin-bottom: 20px;">
+        <div class="input-group" style="width: 100%; display: flex; justify-content: space-between; align-items: center;">
+            <input id="address" type="textbox" placeholder="Buscar Por Nombre..." class="form-control" 
+                   style="border-radius: 12px; padding: 15px; flex: 1; font-size: 16px; border: 1px solid #d1d8e0; background-color: #ffffff; color: #333;">
+            <button class="btn btn-primary" type="button" id="addressSearch" 
+                    style="border-radius: 12px; padding: 12px 20px; font-size: 16px; margin-left: 12px; background-color: #c800ff; color: white; border: none; cursor: pointer; transition: background-color 0.3s ease;">
+                Buscar
+            </button>
+        </div>
+    </div>
+
+    <div id="project-results">
+        <div class="project" style="background-color: white; padding: 20px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-top: 20px;">
+            <div style="font-size: 18px; font-weight: 600; color: #333;">
+                <strong>Nombre del proyecto: </strong> 
+                <span class="project-name" style="color: #007aff;"></span> 
+            </div>  
+            <div style="font-size: 16px; margin-top: 12px; color: #555;">
+                <strong>Empresa: </strong> 
+                <span class="project-company"></span> 
+            </div>  
+            <div style="font-size: 16px; margin-top: 12px; color: #555;">
+                <strong>Ubicación: </strong>  
+                <span class="project-location"></span>  
+            </div>  
+            <div class="project-description-wrapper" style="margin-top: 12px; color: #666;">
+                <strong>Descripción: </strong>  
+                <div class="project-description" style="font-size: 14px; line-height: 1.6;"></div>  
+            </div>  
+        </div>
+    </div>
+</div>
